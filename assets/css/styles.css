@@ -1,0 +1,175 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif; /* Estilo general del cuerpo del documento */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Color de fondo del documento */
+}
+
+/* Estilo del header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    margin-bottom: 10px; /* Separación del header al cuerpo */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilo de los artículos */
+.article {
+    transition: transform 0.2s; /* Efecto de transición al pasar el mouse */
+    position: relative; /* Necesario para las etiquetas de categoría y tiempo */
+}
+
+.article img {
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 20px; /* Redondear más las esquinas de la imagen */
+}
+
+.article img:hover {
+    transform: scale(1.05); /* Escalar imagen al pasar el mouse */
+    box-shadow: 0 0 15px rgba(0,0,255,0.5); /* Sombra azul transparente al pasar el mouse */
+    border-radius: 25px; /* Redondear más las esquinas en hover */
+}
+
+.article .card-body {
+    border-radius: 20px; /* Redondear esquinas del contenedor de texto */
+}
+
+/* Estilo de las etiquetas de categoría */
+.category-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 123, 255, 0.7); /* Azul claro con transparencia */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px; /* Bordes redondeados */
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75em; /* Letra pequeña */
+    font-weight: bold;
+}
+
+/* Estilo de las etiquetas de tiempo */
+.time-badge {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro con transparencia */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px; /* Bordes redondeados */
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75em; /* Letra pequeña */
+}
+
+/* Estilo del footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 10px; /* Separación del footer al contenido */
+}
+
+footer .footer-link {
+    color: blue; /* Color azul para el enlace */
+    text-decoration: none;
+}
+
+footer .footer-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Eliminar el margen por defecto */
+}
+
+footer .footer-menu ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+footer .footer-menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Responsividad para el footer */
+@media (max-width: 768px) {
+    footer .footer-menu ul li {
+        display: block; /* Los elementos se apilan verticalmente en móviles */
+        margin-bottom: 10px;
+        text-align: left;
+    }
+}
+
+/* Responsividad para dispositivos móviles */
+@media (max-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* Línea separadora entre el título y el párrafo */
+.article-title {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.divider {
+    height: 2px;
+    background: linear-gradient(to right, rgba(0, 123, 255, 0.3) 30%, rgba(128, 128, 128, 0.7) 70%);
+    margin: 10px 0;
+}
+
+/* Estilo del reportaje */
+.report h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.report small {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.report img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px; /* Redondear más las esquinas de la imagen */
+    margin-bottom: 20px;
+}
+
+.report p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+/* Responsividad para el reportaje */
+@media (max-width: 768px) {
+    .report h1 {
+        font-size: 1.5rem;
+    }
+
+    .report img {
+        border-radius: 15px;
+    }
+}

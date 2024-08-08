@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Tutorial Instagram: el secreto para lograr más engagement",
+        "description": "Aprende cómo tener un perfil mucho más eficaz...",
+        "image": "assets/img/1.png",
+        "time": "1 hora",
+        "category": "Redes Sociales"
+    },
+    {
+        "title": "Tutorial Animación: cómo capturar y hacer el render de tu proyecto",
+        "description": "Si eres una persona particular o una empresa...",
+        "image": "assets/img/2.png",
+        "time": "2 horas",
+        "category": "Animación"
+    },
+    {
+        "title": "Tutorial Acuarela: técnicas básicas de ilustración botánica",
+        "description": "Este curso de acuarela es una puerta de entrada...",
+        "image": "assets/img/3.png",
+        "time": "3 horas",
+        "category": "Arte"
+    },
+    {
+        "title": "Tutorial LinkedIn Stories: cómo utilizarlas para crear contenido",
+        "description": "Aprende a crear contenido atractivo en LinkedIn...",
+        "image": "assets/img/4.png",
+        "time": "1 día",
+        "category": "Marketing"
+    },
+    {
+        "title": "Las mejores películas de Marilyn Monroe",
+        "description": "¿Te gusta Marilyn Monroe? En este artículo...",
+        "image": "assets/img/5.png",
+        "time": "2 días",
+        "category": "Cine"
+    },
+    {
+        "title": "Tutorial Estampación: la técnica de la monolitografía paso a paso",
+        "description": "Aprende la monolitografía de la mano de un experto...",
+        "image": "assets/img/6.png",
+        "time": "3 días",
+        "category": "Diseño"
+    },
+    {
+        "title": "¿Qué es el realismo mágico? Características y autores",
+        "description": "Descubre qué es el realismo mágico y conoce a sus autores...",
+        "image": "assets/img/7.png",
+        "time": "1 semana",
+        "category": "Literatura"
+    },
+    {
+        "title": "Cómo preparar tu zona de trabajo para tatuar",
+        "description": "Descubre cómo preparar tu zona de trabajo...",
+        "image": "assets/img/8.png",
+        "time": "2 semanas",
+        "category": "Tatuajes"
+    },
+    {
+        "title": "Tutorial Photoshop: cómo borrar fondos",
+        "description": "Aprende a borrar fondos de manera profesional...",
+        "image": "assets/img/9.png",
+        "time": "1 mes",
+        "category": "Fotografía"
+    }
+]
